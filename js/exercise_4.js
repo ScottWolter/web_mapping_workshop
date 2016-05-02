@@ -148,6 +148,8 @@ function getDirections(frm, to){
                 if(item.verbal_pre_transition_instruction){
                 	direction += '<p class="pre-transition">' + item.verbal_pre_transition_instruction + '</p'>
                 }
+                    direction += '</li>';
+                  $('#summary').append(direction);
               })
             })
             
