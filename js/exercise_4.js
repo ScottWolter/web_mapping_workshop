@@ -53,10 +53,9 @@ var clickHandler = function(e){
 
     info += '<div>'
     info += '<h2>' + feature.properties.name + '</h2>'
-    if(feature.properties.phone) info +=   '<p>'  + feature.properties.cuisine + '</p>'
+    if(feature.properties.cuisine) info +=   '<p>'  + feature.properties.cuisine + '</p>'
     if(feature.properties.phone) info +=   '<p>'  + feature.properties.phone + '</p>'
-    if(feature.properties.phone) info +=   '<p>'  + feature.properties.website + '</p>'
-    if(feature.properties.phone) info +=   '<p><a href="' + feature.properties.website + '">'  + feature.properties.website + '</a></p>'
+    if(feature.properties.website) info +=   '<p><a href="' + feature.properties.website + '">'  + feature.properties.website + '</a></p>'
     info += '</div>'
 
     $('#info').append(info);
