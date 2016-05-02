@@ -44,7 +44,7 @@ featureLayer.on('ready', function(){
 
 
 var clickHandler = function(e){
-	$('#info').empty;
+	$('#info').empty();
   
   var feature = e.target.feature;
   
