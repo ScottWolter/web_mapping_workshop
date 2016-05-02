@@ -144,7 +144,7 @@ function getDirections(frm, to){
                 direction += '<li class="instruction" data-begin=' + item.begin_shape_index + ' data-end=' + item.end_shape_index + '>';
                 if(item.verbal_post_transition_instruction){
                 	direction += '<p class="post-transition">' + item.verbal_post_transition_instruction + '</p'>
-                }
+                })
                 if(item.verbal_pre_transition_instruction){
                 	direction += '<p class="pre-transition">' + item.verbal_pre_transition_instruction + '</p'>
                 }
