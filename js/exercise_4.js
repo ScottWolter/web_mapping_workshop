@@ -130,7 +130,7 @@ function getDirections(frm, to){
                   	"stroke-width": 8
                 }
             })
-            }
+            })
 }
 
 ;
