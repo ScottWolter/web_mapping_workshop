@@ -48,7 +48,7 @@ var clickHandler = function(e){
   
   var feature = e.target.feature;
   
-  $('#info').fadeIn(400, function(){
+  $('#sidebar').fadeIn(400, function(){
     var info = '';
 
     info += '<div>'
@@ -70,6 +70,5 @@ featureLayer.on('ready', function(){
 });
 
 map.on('click',function(e){
-    $('#info').fadeOut(200);
-    $('#info').empty();
+    $('#sidebar').fadeOut(200);
 });
