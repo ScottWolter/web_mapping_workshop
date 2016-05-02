@@ -73,6 +73,7 @@ map.on('click',function(e){
     $('#sidebar').fadeOut(200);
 })
 
+
 var myLocation = L.mapbox.featureLayer().addTo(map);
 
 map.on('locationfound', function(e){
@@ -80,7 +81,7 @@ map.on('locationfound', function(e){
     	type: 'Feature',
         geometry: {
         	type: 'Point',
-            coordinates: [e.latlng.lng, e.latlon.lat]
+            coordinates: [e.latlng.lng, e.latlng.lat]
         },
         properties: {
         	"title": "Here I am!",
